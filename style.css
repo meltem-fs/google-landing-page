@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0%;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    white-space: nowrap;
+  }
+  header {
+    width: 100%;
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0.1px;
+  }
+  .links {
+    color: black;
+    text-decoration: none;
+    font-size: 13px;
+    margin-left: 0.8rem;
+    margin-right: 0.8rem;
+  }
+  .links:hover {
+    text-decoration: underline;
+  }
+  .first {
+    margin: 20px;
+    margin-top: 2px;
+  }
+  .second {
+    margin: 20px;
+    position: relative;
+    margin-top: 2px;
+  }
+  #microphone {
+    position: relative;
+    top: 5px;
+    right: 74px;
+    height: 20px;
+    border-left: 1px solid rgba(0, 0, 0, 0.315);
+    padding-left: 5px;
+  }
+  main {
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+  }
+  footer {
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+    padding-left: 5px;
+    line-height: 40px;
+    font-size: 14px;
+    background-color: #F2F2F2;
+  }
+  .footlinks {
+    text-decoration: none;
+    font-size: 13px;
+    color: #5F6368;
+  }
+  .left {
+    float: left;
+  }
+  .right {
+    float: right;
+  }
+  #appicon {
+    vertical-align: middle;
+    opacity: 0.5;
+    margin-top: 5px;
+  }
+  #appicon:hover {
+    opacity: 1;
+  }
+  #signin {
+    padding: 0.6rem;
+    background-color: #4285F4;
+    border-radius: 2px;
+    border: none;
+    color: white;
+  }
+  #search {
+    border: 1px solid lightgray;
+    border-radius: 25px;
+    height: 45px;
+    width: 600px;
+    padding-right:50px;
+    padding-left: 40px;
+  }
+  #search:hover {
+    box-shadow: 3px 3px 5px lightgray;
+  }
+  #search:focus {
+    outline: 0;
+    text-align: left;
+    
+  }
+  #magnify {
+    position: relative;
+    opacity: 0.5;
+    top: 8px;
+    right: 590px;
+  }
+  .searchbar {
+    margin-bottom: 3rem;
+    font-size: 13px;
+    height: auto;
+    width: 400px;
+    padding: 50px;
+  }
+  #google {
+    margin-left: 25%;
+    margin-bottom: 25px;
+  }
+  #btn_left {
+    margin-left: 20%;
+  }
+  .btn {
+    margin-right: 1rem;
+    border-radius: 5px;
+    padding: 1%;
+    border: none;
+    color: #5F6368;
+    margin-top: 20px;
+    width: 25%;
+  }
+  .btn:hover {
+    box-shadow: 0.8px 0.8px 0.7px lightgrey;
+    color: black;
+  }
+  .lang {
+    font-size: 13px;
+    margin-left: 30%;
+  }
+  .country {
+    border-bottom: 1px solid #E4E4E4;
+    color: #5F6368;
+  }
+  .footlinks {
+    margin: 2%;
+  }
+  
+  
+  
+    
